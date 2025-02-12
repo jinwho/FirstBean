@@ -1,0 +1,26 @@
+
+hr.dashed {
+    border-top: 2px dashed #999;
+}
+
+hr.dotted {
+    border-top: 2px dotted #999;
+}
+
+hr.solid {
+    border-top: 3px solid #999;
+}
+
+
+hr.hr-text {
+  position: relative;
+    border: none;
+    height: 1px;
+    background: #999;
+}
+
+
+
+.text-uppercase {
+  letter-spacing: .3em;
+}
