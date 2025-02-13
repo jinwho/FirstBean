@@ -24,3 +24,14 @@ hr.hr-text {
 .text-uppercase {
   letter-spacing: .3em;
 }
+
+
+.maintxt {
+  background-image: url(../img/cafe.jpg);
+  background-size: cover;
+}
+
+.subtxt {
+  background-image: url(../img/coffee.jpg);
+  background-size: cover;
+}
