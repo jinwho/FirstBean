@@ -1,37 +1,118 @@
 
-hr.dashed {
-    border-top: 2px dashed #999;
-}
 
-hr.dotted {
-    border-top: 2px dotted #999;
-}
-
-hr.solid {
-    border-top: 3px solid #999;
-}
-
-
-hr.hr-text {
-  position: relative;
-    border: none;
-    height: 1px;
-    background: #999;
-}
-
-
-
-.text-uppercase {
-  letter-spacing: .3em;
-}
-
-
-.maintxt {
+.mainimg {
   background-image: url(../img/cafe.jpg);
   background-size: cover;
 }
 
-.subtxt {
+.subimg {
   background-image: url(../img/coffee.jpg);
   background-size: cover;
+}
+
+
+
+
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  }
+
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
+
+.astrodivider {
+  margin: 64px auto;
+  width: 400px;
+  max-width: 100%;
+  position: relative;
+}
+.astrodividermask {
+  overflow: hidden;
+  height: 20px;
+}
+
+.astrodividermask:after {
+  content: "";
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px / 12px;
+  box-shadow: 0 0 8px #049372;
+}
+
+.astrodivider span {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: -25px;
+  left: 50%;
+  margin-left: -25px;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px #4fb39c; /* Tint 3 of main color */
+  background: #fff;
+}
+.astrodivider i {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  border-radius: 100%;
+  border: 1px dashed #68beaa; /* Tint 4 of main color */
+  text-align: center;
+  line-height: 40px;
+  font-style: normal;
+  color: #049372; /* main color */
+}
+
+/* Purple */
+
+.purple .astrodividermask:after {
+  box-shadow: 0 0 8px #886fac; /* main color */
+}
+
+.astrodivider.purple span {
+  box-shadow: 0 2px 4px #ab9ac4; /* tint 3 of main color */
+}
+.astrodivider.purple i {
+  border: 1px dashed #b7a8cd; /* tine 4 of main color */
+  color: #886fac; /* main color */
+}
+
+/* Neon Purple */
+
+.neonpurple .astrodividermask:after {
+  box-shadow: 0 0 8px #9d00ff; /* main color */
+}
+.astrodivider.neonpurple span {
+  box-shadow: 0 2px 4px #ba4cff; /* tint 3 of main color */
+}
+.astrodivider.neonpurple i {
+  border: 1px dashed #c466ff; /* tine 4 of main color */
+  color: #9d00ff; /* main color */
+}
+
+/* ONLY FOR CODEPEN, NOT NEEDED: */
+.astrodivider {
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+html, body {
+  min-height: 100%;
 }
