@@ -14,17 +14,6 @@
 
 <body>
 
-  
-  <!--
-    <div class="container">
-      <header class="d-flex justify-content-center py-3">
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a href="#" class="nav-link">First Bean</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
-        </ul>
-      </header>
-    </div>
-    -->
 
 
       <!-- Fixed navbar -->
@@ -49,8 +38,9 @@
 
 
   <div class="container-fluid p-0">
+
     <div class="mainimg py-5 text-center">
-      <h1 class="display-5 fw-bold text-body-emphasis">FirstBean</h1>
+      <h1 class="display-5 fw-bold text-body-emphasis">First Bean</h1>
     </div>
 
     <div class="subimg py-5 text-center">
@@ -58,11 +48,52 @@
         <p class="lead mb-4">아침에 맞이하는 신선한 커피</p>
       </div>
     </div>
+  </div>
+
+  <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col subimg">
+          <p class="lead mb-4">시원한 음료</p>
+        </div>
+        <div class="col subimg">
+          <p class="lead mb-4">달달한 디저트</p>
+        </div>
+      </div>
 
   </div>
 
 
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-6 p-0 subimg">
+            <img src="https://via.placeholder.com/800x400" class="img-fluid w-100" alt="이미지1">
+        </div>
+        <div class="col-6 p-0 subimg">
+            <img src="https://via.placeholder.com/800x400" class="img-fluid w-100" alt="이미지2">
+        </div>
+    </div>
+</div>
 
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-6 p-0 subimg">
+          <div class="image-container">
+              <img src="https://via.placeholder.com/800x400" class="img-fluid w-100" alt="이미지1">
+              <div class="overlay-text">
+                  <h3>첫 번째 이미지</h3>
+              </div>
+          </div>
+      </div>
+      <div class="col-6 p-0 subimg">
+          <div class="image-container">
+              <img src="https://via.placeholder.com/800x400" class="img-fluid w-100" alt="이미지2">
+              <div class="overlay-text">
+                  <h3>두 번째 이미지</h3>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
 
 
   <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
@@ -127,10 +158,6 @@
 
 
 
-
-
-
-
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -161,18 +188,6 @@
         <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
-      </div>
-      <div class="col-md-5">
         <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
       </div>
     </div>
@@ -273,43 +288,39 @@
 
 
 
-  <div class="container text-center">
-    <div class="card m-5 p-5">
-      <p>주소 : 전북 전주시 덕진구 인교9길 39</p>
-      <!-- * 카카오맵 - 지도 -->
-      <!-- 1. 지도 노드 -->
-      <div class="d-flex justify-content-center">
-        <div id="daumRoughmapContainer1739429105039" class="root_daum_roughmap root_daum_roughmap_landing"></div>
-      </div>
-      <!-- 2. 설치 스크립트 -->
-      <script charset="UTF-8" class="daum_roughmap_loader_script"
-        src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
-      <!-- 3. 실행 스크립트 -->
-      <script charset="UTF-8">
-        new daum.roughmap.Lander({
-          "timestamp": "1739429105039",
-          "key": "2n2dc",
-          "mapWidth": "640",
-          "mapHeight": "360"
-        }).render();
-      </script>
-    </div>
-  </div>
-
-
-
-  <div class="container text-center">
+  <div class="container-fluid text-center">
     <div class="card m-5 p-5">
       <div class="row justify-content-md-center">
+
+        <div class="col-md">
+          <p>주소 : 전북 전주시 덕진구 인교9길 39</p>
+          <!-- * 카카오맵 - 지도 -->
+          <!-- 1. 지도 노드 -->
+          <div class="d-flex justify-content-center">
+            <div id="daumRoughmapContainer1739429105039" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+          </div>
+          <!-- 2. 설치 스크립트 -->
+          <script charset="UTF-8" class="daum_roughmap_loader_script"
+            src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+          <!-- 3. 실행 스크립트 -->
+          <script charset="UTF-8">
+            new daum.roughmap.Lander({
+              "timestamp": "1739429105039",
+              "key": "2n2dc",
+              "mapWidth": "640",
+              "mapHeight": "360"
+            }).render();
+          </script>
+        </div>
         <div class="col-sm">
-          <table class="table">
+          <table class="table ">
             <thead>
               <tr>
                 <th scope="col">여는 날</th>
-                <th scope="col">여는 시간</th>
+                <th scope="col">시간</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody class="table-group-divider">
               <tr>
                 <th scope="row">월</th>
                 <td>11:00 ~ 21:00</td>
@@ -344,7 +355,7 @@
                 <th scope="col">쉬는 날</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody class="table-group-divider">
               <tr>
                 <td>일요일</td>
               </tr>
@@ -354,10 +365,30 @@
             </tbody>
           </table>
         </div>
+
       </div>
     </div>
-
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="container-fluid  text-bg-secondary py-5">
+  </div>
+
 
 
   <footer class="footer mt-auto py-3 text-bg-dark">
