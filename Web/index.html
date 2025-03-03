@@ -17,7 +17,7 @@
 
 
   <!-- Fixed navbar -->
-  <div class="container-fluid p-0 ">
+  <div class="container-fluid p-0 border-bottom">
     <nav class="navbar navbar-expand static-top">
       <div class="container">
         <a class="navbar-brand mx-auto" href=""><img src="img/logo.png" class="" alt="..."></a>
@@ -43,7 +43,7 @@
   </div>
 
 
-  <div class="container-fluid">
+  <div class="container-fluid" id="cafe">
 
     <div class="row">
       <div class="col-12 d-flex align-items-center justify-content-center text-white blur-bg"
@@ -217,11 +217,108 @@
 
   <div class="album py-5">
     <div class="container">
+      
 
 
-      <p class="text-center">퍼스트빈 메뉴</p>
+      <p class="text-center"  id="menu">퍼스트빈 메뉴</p>
       <hr />
 
+      <div class="card border-light mb-5 mt-5 text-bg-secondary">
+        <div class="card-body">
+          커피
+        </div>
+      </div>
+
+      <div class="row row-cols-2 row-cols-md-4 mb-3">
+        <div class="col">
+          <div class="card border-light">
+            <img src="img/americano.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">아메리카노(hot)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-light">
+            <img src="img/americano.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">아메리카노(iced)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-light">
+            <img src="img/americano.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">에스프레소</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-light">
+            <img src="img/americano.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">에스프레소</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-light">
+            <img src="img/americano.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">에스프레소</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-light mb-5 mt-5 text-bg-secondary">
+        <div class="card-body">
+          커피
+        </div>
+      </div>
+
+      <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3 mb-3">
+        <div class="col">
+          <div class="card border-light">
+            <img src="img/americano.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">아메리카노(hot)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-light">
+            <img src="img/americano.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">아메리카노(iced)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-light">
+            <img src="img/americano.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">에스프레소</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-light">
+            <img src="img/americano.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">에스프레소</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-light">
+            <img src="img/americano.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">에스프레소</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="card border-light mb-5 mt-5 text-bg-secondary">
         <div class="card-body">
           커피
@@ -281,17 +378,11 @@
 
 
   <div class="container-fluid text-center">
-
-    <div class="card m-5 mb-0" style="border: none;">
-      <div class="card mb-5 mt-5 text-bg-secondary">
-        <div class="card-body">
-          정보
-        </div>
+    <div class="card m-5">
+      <div class="card-header text-bg-secondary" id="info">
+        정보
       </div>
-    </div>
-
-    <div class="card m-5 p-3 mt-0">
-      <div class="row justify-content-md-center">
+      <div class="row justify-content-md-center m-3">
         <div class="col-md">
           <p>주소 : 전북 전주시 덕진구 인교9길 39</p>
           <!-- * 카카오맵 - 지도 -->
@@ -354,6 +445,9 @@
         </div>
       </div>
 
+      <div class="card-footer text-body-secondary">
+        공휴일도 OPEN
+      </div>
     </div>
   </div>
 
@@ -374,7 +468,7 @@
 
   <footer class="footer mt-auto py-3 mt-5">
     <div class="container text-center">
-      <p>제작자 : github.com/jinwho / jinwho30@gmail.com</p>
+      <p>제작자 : github.com/jinwho | jinwho30@gmail.com</p>
       <p>사업자 등록번호 : 294-50-00105 &emsp; 대표자 : 박솔문</p>
       <p>&copy; 2025 FirstBean All CopyRight Reserved</p>
     </div>
